@@ -3,7 +3,7 @@ Description=Python Payment Service
 
 [Service]
 User=payment
-ExecStart=/usr/local/bin/uwsgi --ini /home/payment/payment/payment.ini
+ExecStart=/usr/local/bin/uwsgi --ini payment.ini
 Restart=always
 RestartSec=10
 StandardOutput=append:/var/log/robo-shop/payment.log
