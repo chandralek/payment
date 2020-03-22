@@ -32,4 +32,8 @@ Path: `/home/payment`
 # pip3 install -r requirements.txt
 ```
 
-5. 
+5. Setup the service 
+
+```
+# cd /home/payment/payment
+# cp payments
