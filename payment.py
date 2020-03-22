@@ -66,7 +66,7 @@ def pay(id):
 
     # check user exists
     try:
-        req = requests.get('http://{user}:8080/check/{id}'.format(user=USER, id=id))
+        req = requests.get('http://{user}:7007/check/{id}'.format(user=USER, id=id))
     except requests.exceptions.RequestException as err:
         app.logger.error(err)
         return str(err), 500
