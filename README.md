@@ -25,3 +25,8 @@ Clone with following settings.
 User - `payment`
 Path: `/home/payment`
 
+4. Install the dependencies
+
+```
+# cd /home/payment/payment 
+# 
