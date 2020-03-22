@@ -36,4 +36,4 @@ Path: `/home/payment`
 
 ```
 # cd /home/payment/payment
-# cp payments
+# cp payments.service /home/payments
