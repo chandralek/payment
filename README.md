@@ -16,4 +16,6 @@ CentOS 7 comes with `Python 2` by default. So we need `Python 3` to be installed
 # useradd payment
 ```
 
-3. 
+3. Clone the repo.
+
+**Clo**
