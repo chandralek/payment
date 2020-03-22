@@ -36,4 +36,4 @@ Path: `/home/payment`
 
 ```
 # cd /home/payment/payment
-# cp payment.service /home/payment/payment
+# cp payment.service /etc/systemd/system
