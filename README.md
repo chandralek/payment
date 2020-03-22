@@ -10,4 +10,10 @@ CentOS 7 comes with `Python 2` by default. So we need `Python 3` to be installed
 # yum install python36 gcc python3-devel -y
 ```
 
-2. Create a user for 
+2. Create a user for running the application 
+
+```
+# useradd payment
+```
+
+3. 
