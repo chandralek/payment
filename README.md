@@ -29,4 +29,6 @@ Path: `/home/payment`
 
 ```
 # cd /home/payment/payment 
-# 
+# pip3 install -r requirements.txt
+```
+
