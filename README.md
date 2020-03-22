@@ -19,4 +19,4 @@ CentOS 7 comes with `Python 2` by default. So we need `Python 3` to be installed
 3. Clone the repo.
 
 **Clone Using GitClone**
-****
+**Clone as payment user**
