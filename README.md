@@ -32,7 +32,7 @@ Path: `/home/payment`
 # pip3 install -r requirements.txt
 ```
 
-****
+**Note: Above command may fail with permission denied, So run as root user**
 
 5. Setup the service 
 
