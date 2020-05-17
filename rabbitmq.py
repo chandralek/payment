@@ -3,7 +3,7 @@ import pika
 import os
 
 class Publisher:
-    HOST = os.getenv('AMQP_HOST', 'localhost')
+    HOST = os.getenv('RABBITMQ_HOST', 'localhost')
     VIRTUAL_HOST = '/'
     EXCHANGE='robot-shop'
     TYPE='direct'
