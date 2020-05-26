@@ -4,6 +4,8 @@ import os
 
 class Publisher:
     HOST = os.getenv('RABBITMQ_HOST', 'localhost')
+    RUSERNAME = os.getenv('RUSERNAME', 'guest')
+    RPASSWORD = os.getenv('RPASSWORD', 'guest')
     VIRTUAL_HOST = '/'
     EXCHANGE='robot-shop'
     TYPE='direct'
@@ -14,7 +16,7 @@ class Publisher:
         self._params? = pika.connection.ConnectionParameters(
             host=self.HOST,
             virtual_host=self.VIRTUAL_HOST,
-            credentials=pika.credentials.PlainCredentials('guest', 'guest'))
+            credentials=pika.credentials.PlainCredentials(self.RUSERNAME, self.RPASSWORD))
         self._conn = None
         self._channel = None
 

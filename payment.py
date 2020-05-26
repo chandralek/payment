@@ -118,7 +118,7 @@ def pay(id):
 
     # delete cart
     try:
-        req = requests.delete('http://{cart}:7007/cart/{id}'.format(cart=CART, id=id));
+        req = requests.delete('http://{cart}:7000/cart/{id}'.format(cart=CART, id=id));
         app.logger.info('cart delete returned {}'.format(req.status_code))
     except requests.exceptions.RequestException as err:
         app.logger.error(err)
