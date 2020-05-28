@@ -13,7 +13,7 @@ class Publisher:
 
     def __init__(self, logger):
         self._logger = logger
-        self._params? = pika.connection.ConnectionParameters(
+        self._params = pika.connection.ConnectionParameters(
             host=self.HOST,
             virtual_host=self.VIRTUAL_HOST,
             credentials=pika.credentials.PlainCredentials(self.RUSERNAME, self.RPASSWORD))
